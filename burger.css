@@ -1,0 +1,434 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-image: url('./zurag/1.jpg');
+    background-repeat: repeat;
+    bottom: 30px;
+}
+
+head {
+    width: 100%;
+    height: 100%;
+}
+
+.background {
+    width: 100%;
+    height: 100%;
+
+}
+
+.container {
+    max-width: 1400px;
+    display: flex;
+    margin: auto;
+
+}
+
+.item {
+    border: 1px solid #444;
+    margin-top: 30px;
+    height: 200px;
+    text-align: center;
+    width: 280px;
+    padding: 0px 50px;
+
+}
+
+.do {
+    padding-bottom: 35px;
+}
+
+.item h3 {
+    padding-top: 35px;
+    text-align: 15px;
+}
+
+.item .down {
+    padding-top: 1px;
+}
+
+.item1 {
+    border: 1px solid #444;
+    height: 200px;
+    margin-top: 30px;
+    width: 841px;
+    text-align: center;
+
+}
+
+.item1 p {
+    padding-top: 25px;
+}
+
+.item1 h1 {
+    font-size: 50px;
+    font-weight: 600;
+    padding-top: 25px;
+
+}
+
+.item1 h3 {
+    padding-top: 25px;
+}
+
+.zurag img {
+   width: 180px;
+   height: 170px;
+   margin-right: 25px;
+}
+
+.container-1 {
+    width: 1400px;
+    margin: auto;
+}
+
+.line {
+    flex: 1;
+    border: 1px solid #444;
+    padding: 15px;
+}
+
+.menu {
+    width: 100%;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    text-align: center;
+
+}
+
+.container-2 {
+    width: 1400px;
+    margin: auto;
+    display: flex;
+}
+
+.tom {
+    border: 1px solid #444;
+    height: 1000px;
+    width: 1000px;
+}
+
+.tom h1 {
+    font-size: 110px;
+    text-align: center;
+}
+
+.tom p {
+    font-size: 25px;
+    text-align: start;
+    padding-left: 21px;
+    line-height: 40px;
+}
+
+.tom img {
+    width: 700px;
+    height: 650px;
+    margin-left: 140px;
+}
+
+.jijig {
+    border: 1px solid #444;
+    height: 500px;
+    width: 410px;
+}
+.jijig img{
+    width: 300px;
+    height: 300px;
+    margin-top: 20px;
+    padding-bottom: 70px;
+}
+
+.jijig-1 {
+    border: 1px solid #444;
+    height: 500px;
+    width: 410px;
+}
+
+.input{
+    padding-top: 35px;
+}
+
+.input ul a {
+    color: black;
+    font-size: 25px;
+    margin-left: 650px;
+    font-weight: 600;
+
+}
+
+.input ul a i {
+    font-size: 15px;
+}
+.gol{
+    border: 1px solid #444;
+    width: 1400px;
+    height: 800px;
+    margin: auto;
+}
+.gol1{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.gol1 h1{
+    padding-left: 25px;
+}
+.gol1 img{
+    margin-right: 80px;
+    margin-top: 25px;
+
+}
+.it{
+    display: flex;
+}
+.it1{
+    width: 700px;
+    height: 500px;
+    font-size: 30px;
+    padding-left: 28px;
+    margin-top: 15px;
+    line-height: 40px;
+}
+.zurag{
+    display: flex;
+    gap: 20px;
+    margin-top: 20px;
+    margin-left: 45px;
+}
+.heseg{
+    margin: auto;
+    width: 1400px;
+    border: 1px solid #444;
+    height: 150px;
+}
+.angilal{
+    margin: auto;
+    width: 1400px;
+    height: 750px;
+    border: 1px solid #444;
+    display: flex;
+}
+.angilal1{
+    border: 1px solid #444;
+    width: 466px;
+}
+.angilal2{
+    border: 1px solid #444;
+    width: 466px;
+}
+.angilal3{
+    border: 1px solid #444;
+    width: 466px;
+}
+.angilal h1{
+    text-align: center;
+    font-size: 60px;
+    padding-top: 15px;
+}
+.angilal img{
+    width: 400px;
+    /* margin-left: 55px;
+    margin-top: 25px; */
+}
+.angilal1 img{
+    margin-left: 40px;
+}
+.angilal2 img{
+    margin-left: 40px;
+    margin-top: 15px;
+}
+.angilal3 img{
+    margin-left: 40px;
+    margin-top: 40px;
+}
+.angilal p{
+    font-size: 30px;
+    text-align: center;
+    
+}
+.angilal1 p{
+    padding-top: 20px;
+}
+.angilal2 p{
+    padding-top: 35px;
+}
+.angilal3 p{
+    padding-top: 50px;
+}
+.money{
+    display: flex;
+    width: 1400px;
+    border: 1px solid #444;
+    margin: auto;
+    height: 60px;
+}
+.cash{
+    border: 1px solid #444;
+    width: 400px;
+    padding-right: 20px;
+}
+.cash1{
+    border: 1px solid #444;
+    width: 66px;
+}
+.cash2{
+    border: 1px solid #444;
+    width: 400px;
+}
+.cash3{
+    border: 1px solid #444;
+    width: 66px;
+}
+.cash4{
+    border: 1px solid #444;
+    width: 400px;
+}
+.cash5{
+    border: 1px solid #444;
+    width: 66px;
+}
+.money .cash{
+    font-size: 35px;
+    font-weight: bold;
+    padding-top: 10px;
+    padding-left: 15px;
+}
+.heseg1{
+    margin: auto;
+    width: 1400px;
+    border: 1px solid #444;
+    height: 150px;
+}
+.doorh{
+    display: flex;
+    width: 1400px;
+    margin: auto;
+    border: 1px solid #444;
+    height: 400px;
+}
+.doorh1{
+    border: 1px solid #444;
+    width: 466px;
+}
+.doorh2{
+    border: 1px solid #444;
+    width: 466px;
+}
+.doorh3{
+    border: 1px solid #444;
+    width: 466px;
+}
+.doorh3 h1{
+    padding-left: 25px;
+}
+
+.doorh h1{
+    text-align: center;
+    font-size: 55px;
+    font-weight: bold;
+    margin-top: 35px;
+}
+.doorh p{
+    font-size: 30px;
+    text-align: center;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-top: 20px;
+    line-height: 40px;
+}
+.doorh ul{
+    text-align: center;
+    padding-top: 30px;
+    font-size: 35px;
+}
+.doorh ul a{
+    color: black;
+}
+.footer{
+    margin: auto;
+    width: 1400px;
+    border: 1px solid #444;
+    height: 550px;
+    display: flex;
+}
+.footer h1{
+    font-size: 55px;
+}
+.footer1{
+    width: 800px;
+}
+.footer1 h1{
+    padding-left: 25px;
+    margin-top: 45px;
+    font-size: 75px;
+    line-height: 60px;
+}
+.footer2 h1{
+    font-size: 75px;
+    padding-left: 225px;
+    line-height: 60px;
+    margin-top: 45px;
+}
+.footer2 p{
+    padding-left: 225px;
+    padding-top: 30px;
+    line-height: 30px;
+    font-size: 30px;
+    padding-right: 55px;
+}
+.footer2 ul{
+    padding-left: 225px;
+    padding-top: 30px;
+}
+.footer2 ul a{
+    color: black;
+    font-size: 35px;
+}
+.contact{
+    display: flex;
+    gap: 60px;
+}
+.contact h1{
+    font-size: 35px;
+}
+.contact ul a{
+    color: black;
+}
+.contact1 p{
+    padding-left: 25px;
+    font-size: 25px;
+    font-weight: bold;
+}
+.contact2 p{
+    padding-left: 23px;
+    font-size: 25px;
+    font-weight: bold;
+}
+.contact3 ul{
+    padding-left: 25px;
+    font-size: 25px;
+}
+.contact3 h1{
+    line-height: 40px;
+    padding-top: 10px;
+}
+.ul{
+    margin: auto;
+    width: 1400px;
+    border: 1px solid #444;
+    height: 70px;
+    display: flex;
+}
+.ul1{
+    border: 1px solid #444;
+    width: 466px;
+    display: flex;
+}
+.ul1 h2{
+    font-weight: bold;
+}
